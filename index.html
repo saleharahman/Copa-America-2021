@@ -6,30 +6,140 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Copa America 2021</title>
+    <!-- stylesheet/// -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <style>
         .box {
-            width: 600px;
+            width: 100%;
             height: 300px;
             border: 2px solid rgb(12, 32, 32);
             background-color: darkcyan;
+
         }
 
-        .img {
-            width: 50px;
-            height: 50px;
-        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin-right: ;
+
+            .header-part {
+                margin-bottom: 20px;
+                background-color: royalblue;
+                padding: 100px;
+                color: white;
+            }
+
+            .background-1 {
+                background-image: url(images/banner.png);
+                background-repeat: no-repeat;
+                background-position: right;
+                background-size: 400px 350px;
+            }
+
+            .anchor-button {
+                text-decoration: none;
+                background-color: crimson;
+                padding: 7px;
+                color: white;
+            }
+
+            .blogs {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                margin-left: 25%;
+                margin-right: 25%;
+                margin-top: 25%;
+                margin-bottom: 25%;
+                justify-content: center;
+            }
     </style>
 </head>
 
 <body>
-    <div class="box">
-        <h3>Conmebol</h3>
-        <h3>Copa America</h3>
-        <h3>2021</h3>
-        <img src="images/banner.png" alt="">
+    <!-- header start -->
+    <header>
+        <div class="header-part1 background-1">
+            <div>
+                <h1>Conmebol <br>Copa America <br>2021</h1>
+            </div>
+            <div class="anchor-div">
+                <a href="https://www.sonyliv.com/" class="anchor-button">Watch live <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+    <main>
+        <!-- top players -->
+        <section>
+            <div class="players">
+                <div class="player"><img src="images/players/player-1.png" alt="">Naymer Jr</div>
+                <p>Neymar da Silva Santos Júnior (born 5 February 1992), known as Neymar, is a Brazilian professional
+                    footballer who plays as a forward for Ligue 1 club Paris Saint-Germain and the Brazil national team.
+                    He is widely regarded as one of the best players in the world</p>
+                <div class="player"><img src="images/players/player-2.png" alt="">Lionel Messi</div>
+                <p>Lionel Andrés Messi[note 1] (Spanish pronunciation: [ljoˈnel anˈdɾes ˈmesi] (About this soundlisten);
+                    also known as Leo Messi,[8] (born 24 June 1987) is an Argentine professional footballer who plays as
+                    a forward and captains the Argentina national team. He has played all his professional career for La
+                    Liga club Barcelona, whom he captained from 2018 to 2021</p>
+                <div class="player"><img src="images/players/player-3.png" alt="">Cristiano Ronaldo</div>
+                <p>Cristiano Ronaldo dos Santos Aveiro GOIH ComM (Portuguese pronunciation: [kɾiʃˈtjɐnu ʁɔˈnaɫdu]; born
+                    5 February 1985) is a Portuguese professional footballer who plays as a forward for Serie A club
+                    Juventus and captains the Portugal national team.</p>
+                <div class="player"><img src="images/players/player-4.png" alt="">Paulo Dybala</div>
+                <p>Paulo Exequiel Dybala (born 15 November 1993) is an Argentine professional footballer who plays as a
+                    forward for Serie A club Juventus and the Argentina national team.</p>
+                <div class="player"><img src="images/players/player-5.png" alt="">Mesut Ozil</div>
+                <p>Mesut Özil (German pronunciation: [ˈmeːzut ˈøːzil], Turkish: [meˈsut œˈzil]; born 15 October 1988) is
+                    a German professional footballer who plays as an attacking midfielder for Süper Lig club Fenerbahçe.
+                    Nicknamed "The Assist King",[2][3][4][5][6][7] Özil is known for his technical skills, creativity,
+                    agility, and finesse.[8] He has also played as a wide midfielder in his career</p>
+                <div class="player"><img src="images/players/player-6.png" alt="">Mauro Icardi</div>
+                <p>Mauro Emanuel Icardi (Spanish pronunciation: [ˈmawɾo emaˈnwel iˈkaɾði]; born 19 February 1993) is an
+                    Argentine professional footballer who plays as a striker for Ligue 1 club Paris Saint-Germain and
+                    the Argentina national team.</p>
+                <div class="player"><img src="images/players/player-7.png" alt="">Di Maria</div>
+                <p>Ángel Fabián Di María (born 14 February 1988) is an Argentine professional footballer who plays for
+                    Ligue 1 club Paris Saint-Germain and the Argentina national team. He can play as either a winger or
+                    attacking midfielder.</p>
+                <div class="player"><img src="images/players/player-8.png" alt="">Kylian Mbappe</div>
+                <p>Kylian Mbappé Lottin (born 20 December 1998) is a French professional footballer who plays as a
+                    forward for Ligue 1 club Paris Saint-Germain and the France national team.</p>
+                <div class="player"><img src="images/players/player-9.png" alt="">Mohamed Salah</div>
+                <p>Mohamed Salah Hamed Mahrous Ghaly (Arabic: محمد صلاح حامد محروس غالى‎, Egyptian Arabic pronunciation:
+                    [mæˈħam.mæd sˤɑˈlɑːħ ˈɣæːli]; born 15 June 1992) is an Egyptian professional footballer who plays as
+                    a forward for Premier League club Liverpool and captains the Egypt national team. Considered one of
+                    the best players in the world,[6][7] he is known for his finishing, dribbling, and speed.</p>
+                <div class="player"><img src="images/players/player-10.png" alt="">Harry Kane</div>
+                <p>Harry Edward Kane MBE (born 28 July 1993) is an English professional footballer who plays as a
+                    striker for Premier League club Tottenham Hotspur and captains the England national team. Regarded
+                    as one of the best strikers in the world, Kane is known for his prolific goalscoring record and
+                    ability to link play</p>
+                <div class="player"><img src="images/players/player-11.png" alt="">Kavin De Bruyne</div>
+                <p>Kevin De Bruyne (born 28 June 1991) is a Belgian professional footballer who plays as a midfielder
+                    for Premier League club Manchester City, where he is vice-captain, and the Belgium national team.
+                </p>
+                <div class="player"><img src="images/players/player-12.png" alt="">Philippe Coutinho</div>
+                <p>Philippe Coutinho Correia (born 12 June 1992) is a Brazilian professional footballer who plays as an
+                    attacking midfielder or winger for Spanish club Barcelona and the Brazil national team.</p>
+
+            </div>
+        </section>
+    </main>
+    <br>
+    <div class="last-part">
+        <div>
+            <h1 class="last-alignment">All Highlights <br> Copa America 2021</h1>
+            <div class="anchor-div">
+                <a href="http://www.sonyliv.com" class="anchor-button">Watch Live <i class="fas fa-chevron-right"></i>
+                </a>
+
+            </div>
+        </div>
 
     </div>
-
 </body>
 
 </html>
